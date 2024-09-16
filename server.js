@@ -69,7 +69,7 @@ app.post("/api/create-session-token", async (req, res) => {
   }
 });
 
-const port = process.env.PORT || 3300;
+const port = process.env.PORT || 3600;
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
