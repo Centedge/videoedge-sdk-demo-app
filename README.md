@@ -49,7 +49,7 @@ npm start
 
 - Open your browser and navtigate to `https://localhost:3300/`
 
-- Enter the roomId and peerName and click `joinRoom` button.
+- Enter the roomId and peerName and click `Join Room` button.
 
 - You should be able to see the call running.
 
