@@ -47,7 +47,7 @@ npm install
 npm start
 ```
 
-- Open your browser and navtigate to `http://localhost:3300/`
+- Open your browser and navtigate to `https://localhost:3300/`
 
 - Enter the roomId and peerName and click `joinRoom` button.
 
