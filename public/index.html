@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videoedge Demo</title>
+    <script src="vidscale-client-js.js"></script> <!-- Ensure this path is correct -->
+    <script src="script.js" defer></script>
+    <style>
+        video {
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+        }
+        
+        .peer-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .peer-card video {
+            width: 100%;
+            height: auto;
+            border: 1px solid black;
+        }
+        
+        .peer-list {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .peer-media{
+            display: flex;
+            padding-right: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Videoedge Demo</h1>
+    <!-- <div>
+        <video id="localVideo" autoplay muted></video>
+        <video id="remoteVideo" autoplay></video>
+    </div> -->
+    <form type="submit">
+        <input id="roomId" placeholder="Enter room Id" required></input>
+        <input id="peerId" placeholder="Enter peerId" required></input>
+        <button id="joinButton">Join Room</button>
+    </form>
+    
+    <button id="leaveButton" disabled>Leave Room</button>
+    
+    <div class="peer-list" id="peerList">
+        <!-- Peers will be listed here -->
+    </div>
+</body>
+</html>
