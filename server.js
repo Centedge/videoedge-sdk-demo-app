@@ -52,7 +52,7 @@ app.post("/api/create-session-token", async (req, res) => {
       });
     }
 
-    if (response.data.message === "Active session existis for this roomId") {
+    if (response.data.message === "Active session exists for this roomId") {
       return res.status(200).send({
         message: "Active session token fetched successfully",
         sessionToken: response.data.activeSessionToken,
