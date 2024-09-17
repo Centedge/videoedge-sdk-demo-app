@@ -58,5 +58,6 @@ npm start
 ## Summary
 
 By cloning the demo app, you can quickly get started with Videoedge without the hassle of setting everything up from scratch. This allows you to focus on making modifications and building your application using the SDK features.
-If you prefer to set up and integrate the SDK into your application from scratch, you can refer to the events and methods documentation and follow the next steps for detailed explanation.
+If you prefer to set up and integrate the SDK into your application from scratch, you can refer to the events and methods [documentation](https://videoedge.io/docs) and follow the next steps for detailed explanation.
+
 
